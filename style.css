@@ -1,0 +1,116 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* configurações CSS - login.php */
+.limiter {
+	padding: 10px;
+}
+.formItens input {
+	margin-bottom: 10px;
+}
+.loginBody {
+	width: 380px;
+	height: 380px;
+	border: 1px solid #CCC;
+	padding: 10px;
+	margin: auto;
+}
+.buttonSubmit {
+	margin-top: 15px;
+}
+.formItens h1 {
+	text-align: center;
+}
+
+/* configurações CSS - index.php */
+.indexInfo {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #CCC;
+	width: 70px;
+	padding: 5px;
+}
+.indexItens h6 {
+	font-size: 11px;
+}
+.indexBody {
+	width: 444px;
+	height: 247px;
+	border: 1px solid #CCC;
+	padding: 10px;
+	margin: auto;
+}
+.indexItens {
+	width: 279px;
+	height: 20px;
+}
+.indexBalance {
+	margin-top: 10px;
+}
+.welcameUser {
+	display: flex;
+	flex-direction: row;
+}
+.welcameUser h5 {
+	width: 385px;
+}
+.buttonsBody {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.button a {
+  font-size: 12px;
+}
+.btn {
+  width: 130px;
+}
+
+/* configurações CSS - place.php */
+.placeBody {
+	width: 330px;
+	height: 200px;
+	border: 1px solid #CCC;
+	padding: 10px;
+	margin: auto;
+}
+.inputValues {
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+	justify-content: center;
+}
+.inputValues label {
+	margin-right: 10px;
+}
+.addValue {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+.placeBody h4 {
+	display: flex;
+	justify-content: center;
+}
+#addValue::-webkit-input-placeholder {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-size: bold;
+}
+.inputValues input {
+	border-radius: 25px;
+	background-color: #ebebeb;
+	border: none;
+	padding-left: 15px;
+	outline: none;
+}
+
+/* configurações CSS - extract.php */
+.bodyTable {
+	width: 350px;
+	margin: auto;
+}
